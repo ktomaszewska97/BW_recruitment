@@ -43,3 +43,8 @@ Typically, we expect it to compile and run on a Linux environment with Java 11. 
 us know!
 
 Good luck, and may the topics be with you.
+
+## What has been changed?
+### SimpleTopicExtractor 
+- All words -> toLowerCase (normalized)
+- Implemented word count; base on that, topics are returned in order of importance (decreasing)

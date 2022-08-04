@@ -44,7 +44,6 @@ public class SimpleTopicExtractor implements TopicExtractor {
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .forEachOrdered(x -> sortedMap.put(x.getKey(), x.getValue()));
 
-        //System.out.println("Reverse Sorted Map   : " + sortedMap);
         return sortedMap;
     }
 
