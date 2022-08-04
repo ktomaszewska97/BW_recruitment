@@ -48,3 +48,4 @@ Good luck, and may the topics be with you.
 ### SimpleTopicExtractor 
 - All words -> toLowerCase (normalized)
 - Implemented word count; base on that, topics are returned in order of importance (decreasing)
+- Added integration and unit test
