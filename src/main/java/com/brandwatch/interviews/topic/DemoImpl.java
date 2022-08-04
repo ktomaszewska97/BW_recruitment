@@ -16,7 +16,7 @@ public class DemoImpl implements Demo {
     @Autowired
     private TextProvider provider;
     @Autowired
-    @Qualifier("rakeTopicExtractor")
+    @Qualifier("simpleTopicExtractor")
     private TopicExtractor extractor;
     @Autowired
     private TopicResultsPrinter printer;
